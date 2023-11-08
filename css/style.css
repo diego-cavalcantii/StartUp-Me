@@ -2,9 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     border: 0;
+    /* border: 1px solid black; */
 }
 body {
     font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(119,119,119);
 }
 
 header {
@@ -12,72 +15,141 @@ header {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+}
+
+h1,h2,p {
+    text-align: center;
+}
+
+p{
+    margin: 1% 0 ;
+}
+
+.bg-header {
+    background-image: url("../images/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-gray {
+    background-color:rgb(245,245,245);
+}
+
+.text-black {
+    color: black;
+    /* font-size: .75rem; */
+    font-weight: 800;
+}
+
+.title {
+    color: rgb(255,255,255);
+    font-style: italic;
+    font-size: 1.5rem;
+    /* padding: 0; */
+}
+
+.title-main {
+    color: rgb(255,255,255);
+    font-size: 40px;
+    text-align: center;
+    width: 80%;
+    font-weight: 800;
+    /* padding: 0; */
 }
 
 .container {
-    width: 70%;
+    width: 86%;
     margin: 0 auto;
     align-items: center;
 }
 
 .container-flex {
     display: flex;
-    justify-content: space-between
+    justify-content: space-around;
+    align-items: center;
 }
+
 .menu li {
     display: inline;
 }
 
 .menu li a {
-    padding: 30px;
+    padding: 0 30px;
     text-decoration: none;
+    color: rgb(255,255,255);
+    font-size: .75rem;
+}
+
+.logo {
+    font-family: 'Yesteryear', cursive;
+    color: rgb(254,209,54);
+    font-size: 2rem;
 }
 
 .wrappen {
-    margin: 20vh auto;
-    width: 86%;
+    margin: 0 auto;
+    padding: 5vh 0;
+    width: 60%;
     /* height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
+}
+
+.margin-wrappen {
+    margin :20vh auto ;
+    padding: 0;
+    width: 86%;
 }
 
 button {
+    /* margin-top: 2%; */
     background-color: rgb(254,209,54);
+    padding: 2% 3% 2% 3%;
+    border: none;
+    color:rgb(255,255,255) ;
+    font-weight: 700;
+    border-radius: 5px;
+
 }
 
 .yellow {
     color: rgb(254,209,54);
+    font-style: normal;
 }
 
 .icon { 
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
 }
 
 .icon p {
-    font-size: 20px;
-    text-align: center;
+    font-size: 9px;
+    /* text-align: center; */
+    color: black;
+    font-weight: 900;
+    /* width: 80%; */
 }
 
 .text-align {
-    margin: 0 auto;
-    width: 50%;
-    text-align: justify;
+    /* margin: 0 auto; */
+    width: 60%;
+    /* text-align: center; */
 }
 
 .caixa { 
-    width: 18%;
+    width: 25%;
     margin: 0 4%;
     padding: 1%;
 }
 
 .caixa-icon { 
-    width: 15%;
+    width: 10%;
     /* margin: 0 4%; */
     /* padding: 1%; */
 }
