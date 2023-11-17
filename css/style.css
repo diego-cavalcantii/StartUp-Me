@@ -20,6 +20,7 @@ img {
 
 h1,h2,p {
     text-align: center;
+    
 }
 
 p{
@@ -28,6 +29,12 @@ p{
 
 .bg-header {
     background-image: url("../images/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-footer {
+    background-image: url("../images/bg-footer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,7 +97,7 @@ p{
 .wrappen {
     margin: 0 auto;
     padding: 5vh 0;
-    width: 60%;
+    width: 65%;
     /* height: 100vh; */
     display: flex;
     align-items: center;
@@ -136,10 +143,13 @@ button {
     /* width: 80%; */
 }
 
-.text-align {
+.gap-intern {
     /* margin: 0 auto; */
     width: 60%;
     /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .caixa { 
@@ -161,10 +171,18 @@ button {
 .maps {
     width: 35%;
     /* float: right; */
+    /* text-align: center; */
+    /* margin: 0 auto; */
 }
 
 .text-size {
     font-size: 1.5rem;
+}
+
+.teste {
+    /* width: 60%; */
+    margin: 0 auto;
+    /* font-size: 1rem; */
 }
 
 .input {
