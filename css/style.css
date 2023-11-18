@@ -84,14 +84,15 @@ p{
 .menu li a {
     padding: 0 30px;
     text-decoration: none;
-    color: rgb(255,255,255);
-    font-size: .75rem;
+    color: rgb(245,245,245);
+    /* font-size: .75rem; */
 }
 
 .logo {
-    font-family: 'Yesteryear', cursive;
-    color: rgb(254,209,54);
-    font-size: 2rem;
+    width: 15%;
+}
+.logo-footer {
+    width: 30%;
 }
 
 .wrappen {
@@ -115,7 +116,7 @@ p{
 button {
     /* margin-top: 2%; */
     background-color: rgb(254,209,54);
-    padding: 2% 3% 2% 3%;
+    padding: 10px 35px;
     border: none;
     color:rgb(255,255,255) ;
     font-weight: 700;
@@ -135,12 +136,20 @@ button {
     justify-content: center;
 }
 
-.icon p {
-    font-size: 9px;
-    /* text-align: center; */
+.icon span {
+    text-align: center;
     color: black;
     font-weight: 900;
-    /* width: 80%; */
+    padding: 3%;
+}
+
+.icon p {
+    font-size: .75rem;
+}
+
+.caixa-icon p {
+    color: black;
+    font-weight: 800;
 }
 
 .gap-intern {
@@ -153,19 +162,20 @@ button {
 }
 
 .caixa { 
-    width: 25%;
-    margin: 0 4%;
+    width: 20%;
+    /* margin: 0 4%; */
     padding: 1%;
 }
 
 .caixa-icon { 
-    width: 10%;
+    width: 11%;
     /* margin: 0 4%; */
     /* padding: 1%; */
 }
 
 .caixa img {
     border-radius: 50%;
+    border: 6px white solid;
 }
 
 .maps {
@@ -185,8 +195,41 @@ button {
     /* font-size: 1rem; */
 }
 
-.input {
+input {
     font-size: 14px;
-    padding: 8px 12px; 
+    /* padding: 8px 12px;  */
     border: 1px solid #a9a9a9;
+    margin: 8px 0;
+    width: 350px;
+    height: 30px;
+    border-radius: 3px;
+ }
+
+.botao {
+    /* position: absolute;
+    right: 0; */
+    float: right;
+    margin: 5px 0;
+}
+
+#mensagem {
+    height: 100px;
+}
+label {
+    color: rgb(255,255,255);
+    display: block;
+ }
+
+ /* form {
+    position: relative;
+ } */
+
+ footer {
+    margin: 0 auto;
+    padding: 16px 0;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 2rem; */
  }
