@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     border: 0;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 body {
     font-size: 16px;
@@ -94,7 +94,7 @@ p{
     width: 15%;
 }
 .logo-footer {
-    width: 30%;
+    width: 32%;
 }
 
 .wrappen {
@@ -232,10 +232,11 @@ label {
 
  footer {
     margin: 0 auto;
-    padding: 16px 0;
+    padding: 8px 0;
     width: 65%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: .70rem;
     /* gap: 2rem; */
  }
