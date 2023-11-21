@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     border: 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 body {
     font-size: 16px;
@@ -30,7 +30,6 @@ p{
     background-image: url("../images/bg-header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* overflow: hidden; */
 }
 
 .bg-footer {
@@ -45,7 +44,6 @@ p{
 
 .text-black {
     color: black;
-    /* font-size: .75rem; */
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
 }
@@ -63,9 +61,8 @@ p{
     font-size: 40px;
     text-align: center;
     width: 80%;
-    font-weight: 800;
+    font-weight: 90;
     font-family: 'Open Sans', sans-serif;
-    /* padding: 0; */
 }
 
 .container {
@@ -102,17 +99,14 @@ p{
     margin: 0 auto;
     padding: 5vh 0;
     width: 65%;
-    /* height: 100vh; */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     flex-direction: column;
     gap: 2rem;
 }
 
 .margin-wrappen {
-    margin :20vh auto ;
-    padding: 0;
+    padding: 25vh 0;
     width: 86%;
 }
 
@@ -238,7 +232,7 @@ label {
 
 
 
-.forms > p {
+.forms p {
     text-align: left;
     margin: 8px 0;
 }
