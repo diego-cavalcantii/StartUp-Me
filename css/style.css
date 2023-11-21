@@ -6,7 +6,7 @@
 }
 body {
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tienne', serif;
     color: rgb(119,119,119);
 }
 
@@ -20,7 +20,6 @@ img {
 
 h1,h2,p {
     text-align: center;
-    
 }
 
 p{
@@ -47,13 +46,15 @@ p{
     color: black;
     /* font-size: .75rem; */
     font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .title {
     color: rgb(255,255,255);
     font-style: italic;
     font-size: 1.5rem;
-    /* padding: 0; */
+    font-weight: 400;
+    font-family: 'Tienne', serif;
 }
 
 .title-main {
@@ -62,6 +63,7 @@ p{
     text-align: center;
     width: 80%;
     font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
     /* padding: 0; */
 }
 
@@ -85,7 +87,7 @@ p{
     padding: 0 30px;
     text-decoration: none;
     color: rgb(245,245,245);
-    /* font-size: .75rem; */
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo {
@@ -127,6 +129,7 @@ button {
 .yellow {
     color: rgb(254,209,54);
     font-style: normal;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .icon { 
@@ -141,15 +144,18 @@ button {
     color: black;
     font-weight: 900;
     padding: 3%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .icon p {
     font-size: .75rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .caixa-icon p {
     color: black;
     font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .gap-intern {
@@ -168,7 +174,7 @@ button {
 }
 
 .caixa-icon { 
-    width: 11%;
+    width: 12%;
     /* margin: 0 4%; */
     /* padding: 1%; */
 }
