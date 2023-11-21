@@ -30,6 +30,7 @@ p{
     background-image: url("../images/bg-header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    /* overflow: hidden; */
 }
 
 .bg-footer {
@@ -94,7 +95,7 @@ p{
     width: 15%;
 }
 .logo-footer {
-    width: 32%;
+    width: 15%;
 }
 
 .wrappen {
@@ -104,7 +105,7 @@ p{
     /* height: 100vh; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     gap: 2rem;
 }
@@ -160,12 +161,14 @@ button {
 
 .gap-intern {
     /* margin: 0 auto; */
-    width: 60%;
+    width: 50%;
     /* text-align: center; */
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
+
+
 
 .caixa { 
     width: 20%;
@@ -196,9 +199,7 @@ button {
 }
 
 .teste {
-    /* width: 60%; */
-    margin: 0 auto;
-    /* font-size: 1rem; */
+    width: 70%;
 }
 
 input {
@@ -211,11 +212,20 @@ input {
     border-radius: 3px;
  }
 
+ .forms {
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
+    /* position: relative; */
+}
+
 .botao {
-    /* position: absolute;
-    right: 0; */
-    float: right;
-    margin: 5px 0;
+    /* position: absolute; */
+    /* right: 0; */
+    /* float: right; */
+    display: block;
+    margin-left: auto;
 }
 
 #mensagem {
@@ -226,17 +236,36 @@ label {
     display: block;
  }
 
- /* form {
-    position: relative;
- } */
 
- footer {
+
+.forms > p {
+    text-align: left;
+    margin: 8px 0;
+}
+
+.yellow-forms {
+    color: rgb(254,209,54);
+    font-size: 15px;
+}
+
+footer {
     margin: 0 auto;
     padding: 8px 0;
     width: 65%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    /* align-items: center; */
     font-size: .70rem;
     /* gap: 2rem; */
  }
+
+ .icons-footer {
+     width: 10%;
+ }
+
+.hi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
