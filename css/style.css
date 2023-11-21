@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     border: 0;
-    /* border: 1px solid black; */
 }
 body {
     font-size: 16px;
@@ -52,7 +51,7 @@ p{
 
 .title-main {
     color: rgb(255,255,255);
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
     width: 80%;
     font-weight: 900;
@@ -184,7 +183,7 @@ button {
 }
 
 input {
-    font-size: 14px;
+    font-size: .875rem;
     border: 1px solid #a9a9a9;
     margin: 8px 0;
     width: 350px;
