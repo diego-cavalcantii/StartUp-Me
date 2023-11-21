@@ -149,6 +149,10 @@ button {
     gap: 1rem;
 }
 
+.gap-intern p,h2 {
+    text-align: left;
+}
+
 .box-responsivo { 
     width: 20%;
     padding: 1%;
