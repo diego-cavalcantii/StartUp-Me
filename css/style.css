@@ -32,12 +32,6 @@ p{
     background-size: cover;
 }
 
-.bg-footer {
-    background-image: url("../images/bg-footer.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .bg-gray {
     background-color:rgb(245,245,245);
 }
@@ -61,7 +55,7 @@ p{
     font-size: 40px;
     text-align: center;
     width: 80%;
-    font-weight: 90;
+    font-weight: 900;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -91,9 +85,6 @@ p{
 .logo {
     width: 15%;
 }
-.logo-footer {
-    width: 15%;
-}
 
 .wrappen {
     margin: 0 auto;
@@ -106,12 +97,11 @@ p{
 }
 
 .margin-wrappen {
-    padding: 25vh 0;
+    padding: 15vh 0;
     width: 86%;
 }
 
 button {
-    /* margin-top: 2%; */
     background-color: rgb(254,209,54);
     padding: 10px 35px;
     border: none;
@@ -131,7 +121,6 @@ button {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
 }
 
 .icon span {
@@ -147,58 +136,51 @@ button {
     font-family: 'Open Sans', sans-serif;
 }
 
-.caixa-icon p {
+.box-icon p {
     color: black;
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
 }
 
 .gap-intern {
-    /* margin: 0 auto; */
     width: 50%;
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-
-
-.caixa { 
+.box-responsivo { 
     width: 20%;
-    /* margin: 0 4%; */
     padding: 1%;
 }
 
-.caixa-icon { 
+.box-icon { 
     width: 12%;
-    /* margin: 0 4%; */
-    /* padding: 1%; */
 }
 
-.caixa img {
+.box-responsivo img {
     border-radius: 50%;
     border: 6px white solid;
 }
 
 .maps {
     width: 35%;
-    /* float: right; */
-    /* text-align: center; */
-    /* margin: 0 auto; */
 }
 
-.text-size {
-    font-size: 1.5rem;
+ .forms {
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 13px;
 }
-
-.teste {
-    width: 70%;
+.bg-footer {
+    background-image: url("../images/bg-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 input {
     font-size: 14px;
-    /* padding: 8px 12px;  */
     border: 1px solid #a9a9a9;
     margin: 8px 0;
     width: 350px;
@@ -206,18 +188,7 @@ input {
     border-radius: 3px;
  }
 
- .forms {
-    flex-direction: row;
-    justify-content: space-between;
-    color: white;
-    font-size: 13px;
-    /* position: relative; */
-}
-
 .botao {
-    /* position: absolute; */
-    /* right: 0; */
-    /* float: right; */
     display: block;
     margin-left: auto;
 }
@@ -229,8 +200,6 @@ label {
     color: rgb(255,255,255);
     display: block;
  }
-
-
 
 .forms p {
     text-align: left;
@@ -248,16 +217,18 @@ footer {
     width: 65%;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     font-size: .70rem;
-    /* gap: 2rem; */
  }
+ 
+.logo-footer {
+    width: 15%;
+}
 
  .icons-footer {
      width: 10%;
  }
 
-.hi {
+.box-icon-footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
